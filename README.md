@@ -1,5 +1,3 @@
-# React + Vite
-
 
 # React + Vite
 
@@ -12,7 +10,7 @@ Developed a real-time feedback web app with Firebase Firestore integration for s
 
 | Home | Feedback |
 |------------|--------------|
-| ![Dashboard](./screenshots/.png) | ![Add Expense](./screenshots/screenshot2.png) |
+| ![Dashboard](./screenshots/home.png) | ![Add Expense](./screenshots/feedback.png) |
 
 ## 🚀 Live Demo
 👉 [Live Site on Netlify](https://feedback025.netlify.app/}
