@@ -1,0 +1,108 @@
+/* src/App.css */
+:root {
+  --bg: #0f1724;
+  --card: #0b1220;
+  --accent: #b415ff;
+  --muted: #cbd5e1;
+}
+
+body {
+  margin:0;
+  font-family: Inter, Arial, sans-serif;
+  background:#f6f7fb;
+  color:#111827;
+}
+
+.app {
+  max-width:900px;
+  margin:36px auto;
+  padding:20px;
+}
+
+header h1 {
+  margin:0;
+}
+.subtitle {
+  color:#4b5563;
+}
+
+.feedback-form, .feedback-item, .feedback-list {
+  background:white;
+  border-radius:8px;
+  padding:16px;
+  box-shadow:0 6px 18px rgba(15,23,42,0.06);
+  margin-bottom:16px;
+}
+
+.feedback-form label {
+  display:block;
+  margin-bottom:12px;
+  font-size:14px;
+}
+
+.feedback-form input, .feedback-form textarea, .feedback-form select {
+  width:100%;
+  padding:8px 10px;
+  margin-top:6px;
+  border-radius:6px;
+  border:1px solid #e6e9ef;
+  font-size:14px;
+}
+
+.form-actions {
+  display:flex;
+  gap:12px;
+  margin-top:8px;
+}
+
+.feedback-form button {
+  background:var(--accent);
+  color:white;
+  border:none;
+  padding:10px 16px;
+  border-radius:8px;
+  cursor:pointer;
+}
+
+.feedback-form .btn-cancel {
+  background:#e5e7eb;
+  color:#111;
+}
+
+.feedback-item .feedback-meta {
+  display:flex;
+  gap:12px;
+  align-items:center;
+  margin-bottom:8px;
+}
+
+.rating {
+  background:#fef3c7;
+  padding:6px 10px;
+  border-radius:8px;
+  font-weight:600;
+}
+
+.feedback-message {
+  color:#111827;
+  margin-bottom:10px;
+}
+
+.feedback-actions button {
+  background:#eef2ff;
+  border: none;
+  padding:8px 12px;
+  border-radius:6px;
+  margin-right:8px;
+  cursor:pointer;
+}
+
+.feedback-actions .danger {
+  background:#fee2e2;
+  color:#991b1b;
+}
+
+.no-feedback {
+  text-align:center;
+  color:#6b7280;
+}
