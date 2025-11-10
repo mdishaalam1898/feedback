@@ -1,16 +1,41 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+# React + Vite
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# 💰 Feedback App
 
-## React Compiler
+Developed a real-time feedback web app with Firebase Firestore integration for secure cloud data storage.
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🖼️ Screenshots
 
-## Expanding the ESLint configuration
+| Home | Feedback |
+|------------|--------------|
+| ![Dashboard](./screenshots/.png) | ![Add Expense](./screenshots/screenshot2.png) |
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Live Demo
+👉 [Live Site on Netlify](https://feedback025.netlify.app/}
+
+---
+
+## 🧠 Features
+- Integrating Firebase Firestore with React for real-time data updates.
+- Managing component state with useState and useEffect.
+- Designed a responsive and minimal UI for smooth user experience across devices.
+
+
+---
+
+## 🛠️ Built With
+- **React.js (Vite)**
+- Firebase
+- **CSS**  
+- **JavaScript (ES6)**  
+- **Netlify** for deployment  
+
+---
+
+## 🧑‍💻 Author
+**Md Isha Alam**  
+🔗 [LinkedIn](https://www.linkedin.com/in/mdishaalam8340/)
